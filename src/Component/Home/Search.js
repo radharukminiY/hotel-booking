@@ -53,10 +53,10 @@ class Search extends Component{
         return(
             <div className="imageContainer">
                 <div id="logo">
-                    <b>D!</b>
+                    <b>T!</b>
                 </div>
                 <div className="heading">
-                    Plan Trip With Us
+                    Explore With Us
                 </div>
                 <div className="locationSelector">
                     <select className="locationDropDown" onChange={this.handleChangeCity}>

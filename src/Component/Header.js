@@ -11,7 +11,7 @@ const Header = () => {
                     <span className="icon-bar"></span>
                     <span className="icon-bar"></span>
                 </button>
-                <a className="navbar-brand" href="#">Find Hotel</a>
+                <a className="navbar-brand" href="#">TourAura</a>
                 </div>
                 <div className="collapse navbar-collapse" id="myNavbar">
                 <ul className="nav navbar-nav">

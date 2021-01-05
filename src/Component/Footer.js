@@ -5,7 +5,7 @@ const Footer =() => {
         <React.Fragment>
             <hr/>
             <center>
-                <h3>&copy; Find-Hotel 2021</h3>
+                <h3>&copy; TourAura.com-2021</h3>
             </center>
         </React.Fragment>
     )
