@@ -11,11 +11,11 @@ class ListingApi extends Component{
         super()
 
         this.state={
-            hoteldata:''
+            hotellist:''
         }
     }
     setDataPerFilter(sortedData){
-      this.setState({hoteldata:sortedData})
+      this.setState({hotellist:sortedData})
     }
 
 
@@ -25,16 +25,8 @@ class ListingApi extends Component{
                 <div className="row">
                     <div className="col-md-2">
                         <RoomFilter roomperType={(data)=> {this.setDataPerFilter(data)}}/>
-                        <CostFilter costperFilter={(data)=> {this.setDataPerFilter(data)}}/>
-
-                    </div>
-                    <div className="col-md-10">
-                        <ListingDisplay listdata={this.state.hoteldata}/>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-md-2">
                         <CostFilter costperType={(data)=> {this.setDataPerFilter(data)}}/>
+
                     </div>
                     <div className="col-md-10">
                         <ListingDisplay listdata={this.state.hotellist}/>

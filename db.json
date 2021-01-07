@@ -1,0 +1,32 @@
+{
+  "booking": [
+    {
+      "id": 421,
+      "hotel_name": "The Leela Goa",
+      "name": "GSR",
+      "phone": "079675489",
+      "count": "2"
+    },
+    {
+      "id": 384,
+      "hotel_name": "Snow Bliss",
+      "name": "radha",
+      "phone": "332134789",
+      "count": "3"
+    },
+    {
+      "id": 593,
+      "hotel_name": "Amanora The Fern Hotels",
+      "name": "sandy",
+      "phone": "05678943",
+      "count": ""
+    },
+    {
+      "id": 58,
+      "hotel_name": "The Orchid Hotel",
+      "name": "Nani",
+      "phone": "32344545098",
+      "count": "2"
+    }
+  ]
+}
