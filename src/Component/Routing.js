@@ -7,6 +7,7 @@ import ListingApi from './Listing/ListingApi';
 import Details from './Details/hotelDetails';
 import PlaceOrder from './Booking/placeBooking';
 import ViewBooking from './Booking/bookingApi';
+
 const Routing = () => {
     return(
         <BrowserRouter>

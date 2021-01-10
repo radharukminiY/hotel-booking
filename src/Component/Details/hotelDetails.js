@@ -40,21 +40,23 @@ class Details extends Component{
                               <TabPanel>
                               <h2>Abous This place</h2>
                               <p>{details.name} is good place to stay and enjoy your holiday.
-                              This place is historically and architecturally ancient.
+                              This place is historically and archectrally ancient.
                               A lot of tourists and business peoples visit this place.</p>
                               </TabPanel>
                               <TabPanel><h2>contact info</h2>
                               <p>phone no:091994932476</p>
+
                               </TabPanel>
                               </Tabs>
+
                               </div>
+
                               <div>
-                              <Link to={`/list/${this.state.tripId}`} className="btn btn-danger">Back</Link> &nbsp;
-                              <Link to={`/booking/${details.name}`}className="btn btn-success">Place Booking</Link>
+                              <Link to="{'/list/${this.state.tripId}'}" className="btn btn-danger">Back</Link> &nbsp;
+                              <Link to={`/booking/${details.name}`}  className="btn btn-success">Place Booking</Link>
                               </div>
-                               </div>
-                               </div>
-                               </div>
+                               </div></div>
+                                </div>
     )
   }
 //  componentDidMount(){
