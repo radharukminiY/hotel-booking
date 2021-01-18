@@ -3,7 +3,7 @@ import React,{Component} from 'react';
 //import {Link} from 'react-router-dom';
 //import {Tab,Tabs,TabList,TabPanel} from 'react-tabs';
 
- const BookingUrl="http://localhost:8800/booking"
+ const BookingUrl="http://localhost:8900/booking"
 
 class PlaceBooking extends Component{
   constructor(props){
@@ -12,7 +12,7 @@ class PlaceBooking extends Component{
     this.state={
       id:Math.floor(Math.random()*1000),
       hotel_name:this.props.match.params.hotel_name,
-      name:'',
+      name:sessionStorage.getItem('username')?sessionStorage.getItem('username'):'',
       phone:'',
       count:''
     }
