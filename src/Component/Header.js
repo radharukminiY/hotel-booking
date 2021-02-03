@@ -14,7 +14,7 @@ class  Header extends Component{
   conditional_menu = () => {
         if(sessionStorage.getItem('username')===null || sessionStorage.getItem('username')===undefined){
             return(
-                    <li><a href="https://github.com/login/oauth/authorize?client_id=I841775ffdee13afd7f4f"><span className="glyphicon glyphicon-log-in"></span> Login With Git</a></li>
+                    <li><a href="https://github.com/login/oauth/authorize?client_id=2c42b90df2944c25e20c"><span className="glyphicon glyphicon-log-in"></span> Login With Git</a></li>
             )
         }else{
             return(
@@ -55,7 +55,7 @@ class  Header extends Component{
             let requestedData={
                 code:code
             }
-            fetch('http://localhost:9900/oauth',{
+            fetch('http://localhost:9800',{
                 method:'POST',
                 headers:{
                     'Accept':'application/json',

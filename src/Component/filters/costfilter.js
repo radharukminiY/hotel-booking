@@ -11,7 +11,7 @@ class CostFilter extends Component{
     let hcost=costType[1];
     let tripId =sessionStorage.getItem('tripid');
     let costurl;
-    if(costType==''){
+    if(costType===''){
       costurl=`${curl}/${tripId}`
     }else{
       costurl=`${curl}/${tripId}?hcost=${hcost}&lcost=${lcost}`

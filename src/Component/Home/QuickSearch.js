@@ -1,4 +1,4 @@
-import React,{Component} from 'react';
+import React,{Component,Fragment} from 'react';
 import QuickDisplay from './QuickDisplay';
 
 const QuickUrl = "https://developerfunnel.herokuapp.com/booking";
@@ -15,9 +15,13 @@ class QuickSearch extends Component{
 render(){
 console.log(this.state.tripType);
 return(
-    <div>
+    <Fragment>
+    {[
     <QuickDisplay tripdata={this.state.tripType}/>
-      </div>
+  ]}
+</Fragment>
+
+
         )
     }
 

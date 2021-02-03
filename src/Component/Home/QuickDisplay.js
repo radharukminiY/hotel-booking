@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{Fragment} from 'react';
 import './quickSearch.css';
 import {Link} from 'react-router-dom';
 
@@ -8,21 +8,23 @@ const QuickDisplay = (props) =>
     if(tripdata){
       return tripdata.map((item)=>{
         return(
+          <Fragment>
           <Link to={`/list/${item.trip}`}>
           <div className="tileContainer">
           <div className="tileComponent1">
-          <img src={item.image}/>
+          <img src={item.image} alt="img"/>
           </div>
           <div className="tileComponent2">
           <div className="componentHeading">
           {item.name}
           </div>
           <div className="componentSubHeading">
-          start your {item.name} with us
+          start your <Fragment> {item.name}</Fragment> with us
           </div>
           </div>
           </div>
           </Link>
+            </Fragment>
 
         )
       })
@@ -37,8 +39,8 @@ Quick Search
 <p className="quickSearchHeading">
 Discover trip by type
 </p>
-<br/>
-{listTrip(props)}
+<br/><Fragment>
+{listTrip(props)}</Fragment>
 </div>
     </div>
   )

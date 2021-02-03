@@ -1,5 +1,5 @@
 
-import React,{Component} from 'react';
+import React,{Component,Fragment} from 'react';
 import './search.css';
 import {withRouter} from 'react-router-dom';
 
@@ -20,9 +20,10 @@ class Search extends Component{
         if(data){
             return data.map((item) => {
                 return(
+                  <Fragment>
                     <option value={item.city}>
                         {item.city_name}
-                    </option>
+                    </option></Fragment>
                 )
             })
         }

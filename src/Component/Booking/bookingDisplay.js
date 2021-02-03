@@ -1,4 +1,5 @@
 import React from 'react';
+import { useHistory } from "react-router-dom";
 
 const BookingView = (props) => {
     const renderTable = ({bookdata}) => {
@@ -34,8 +35,10 @@ const BookingView = (props) => {
                     {renderTable(props)}
                 </tbody>
             </table>
+
         </div>
-    )
-}
+            )
+                 }
+
 
 export default BookingView;
