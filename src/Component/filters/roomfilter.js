@@ -8,7 +8,7 @@ class RoomFilter extends Component{
     let roomType=event.target.value;
     let tripid=sessionStorage.getItem('tripid');
     let roomurl;
-    if(roomType==''){
+    if(roomType===''){
       roomurl=`${rurl}/${tripid}`
 
     }else{

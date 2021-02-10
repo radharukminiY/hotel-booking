@@ -31,7 +31,7 @@ const ListingDisplay = (props) => {
                                         <div className="address-text">{item.address}</div>
                                     </div>
                                 </div>
-                                <hr />
+
                                 <div class="row">
                                     <div class="col-sm-3">
                                         <div class="CUISINES-COST-FOR-TWO">Room Type</div>
@@ -42,7 +42,7 @@ const ListingDisplay = (props) => {
                                             {item.type[0].name},{item.type[1].name},{item.type[2].name}</div>
                                         <div class="Bakery-700">Rs {item.cost}</div>
                                     </div>
-                                </div>
+                                </div><hr />
                             </div>
                 )
             })

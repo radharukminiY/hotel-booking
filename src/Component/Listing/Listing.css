@@ -148,10 +148,11 @@
 
 .item {
     width: 875px;
-    height: 320px;
+    height: 400px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     background-color: #f2eded;
     margin-bottom: 20px;
+    display:inline;
 }
 
 .option-item {
@@ -165,6 +166,7 @@
     text-align: left;
     color: #8c96ab;
     margin-right: 100px;
+    display: inline-block;
 }
 
 .block {
@@ -221,13 +223,13 @@
 
 .address-text {
     width: 100%;
-    height: 23px;
+    height: 20px;
     font-family: Poppins;
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 2.88;
+    line-height: 1.88;
     letter-spacing: normal;
     text-align: left;
     color: #636f88;
