@@ -112,14 +112,14 @@
 
 .textbox {
     width: 208px;
-    height: 35px;
+    height: 45px;
     border-radius: 3px;
     border: solid 1px #8c96ab;
     margin-right: 13%;
 }
 
 .Cost-For-Two {
-    height: 45px;
+    height: 65px;
     font-family: Poppins;
     font-size: 18px;
     font-weight: normal;
@@ -148,7 +148,7 @@
 
 .item {
     width: 875px;
-    height: 400px;
+    height: 550px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     background-color: #f2eded;
     margin-bottom: 20px;
@@ -165,8 +165,9 @@
     letter-spacing: normal;
     text-align: left;
     color: #8c96ab;
-    margin-right: 100px;
-    display: inline-block;
+
+
+
 }
 
 .block {

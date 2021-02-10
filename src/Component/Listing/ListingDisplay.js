@@ -31,7 +31,7 @@ const ListingDisplay = (props) => {
                                         <div className="address-text">{item.address}</div>
                                     </div>
                                 </div>
-
+<br/>
                                 <div class="row">
                                     <div class="col-sm-3">
                                         <div class="CUISINES-COST-FOR-TWO">Room Type</div>
