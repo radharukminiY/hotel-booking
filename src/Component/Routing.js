@@ -4,9 +4,9 @@ import Home from './Home/main';
 import Header from './Header';
 import Footer from './Footer';
 import ListingApi from './Listing/ListingApi';
-import Details from './Details/hotelDetails';
-import PlaceOrder from './Booking/placeBooking';
-import ViewBooking from './Booking/bookingApi';
+import Details from './details/Hoteldetails';
+import PlaceOrder from './booking/placeBooking';
+import ViewBooking from './booking/bookingApi';
 
 const Routing = () => {
     return(
