@@ -1,39 +1,16 @@
 {
   "booking": [
+
     {
-      "id": 421,
-      "hotel_name": "The Leela Goa",
-      "name": "GSR",
-      "phone": "079675489",
-      "count": "2"
-    },
-    {
-      "id": 384,
-      "hotel_name": "Snow Bliss",
-      "name": "radha",
-      "phone": "332134789",
-      "count": "3"
-    },
-    {
-      "id": 593,
-      "hotel_name": "Amanora The Fern Hotels",
-      "name": "sandy",
-      "phone": "05678943",
-      "count": ""
-    },
-    {
-      "id": 58,
-      "hotel_name": "The Orchid Hotel",
-      "name": "Nani",
-      "phone": "32344545098",
-      "count": "2"
-    },
-    {
-      "id": 684,
-      "hotel_name": "The Park Baga River Goa",
-      "name": "Nani",
-      "phone": "32344545098",
-      "count": "2"
+      "id": 459242,
+      "hotel_name": "Hometel Chandigarh",
+      "name": "nani",
+      "phone": "067876786",
+      "email": "rr@gmail.com",
+      "cost": "2499",
+      "status": "TXN_SUCCESS",
+      "date": "2021-05-12%2007:33:27.0",
+      "bank": "State%20Bank%20of%20India"
     }
   ]
 }

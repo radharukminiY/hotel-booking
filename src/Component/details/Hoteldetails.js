@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
-const url = "https://developerfunnel.herokuapp.com/hotelsdetails";
+const url = "";
 
 class Details extends Component {
     constructor(props) {
@@ -73,7 +73,7 @@ class Details extends Component {
                                 </h4>
                                 <h4>
                                     <span class="label label-primary">
-                                            Phone. 9867865646
+                                            Phone. 056734488
                                     </span>
                                 </h4>
                             </TabPanel>
