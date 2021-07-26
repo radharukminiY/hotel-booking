@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
-const url = "";
+const url = "paytm-integration url";
 
 class Details extends Component {
     constructor(props) {
