@@ -3,7 +3,7 @@ import React,{Component} from 'react';
 //import {Link} from 'react-router-dom';
 //import {Tab,Tabs,TabList,TabPanel} from 'react-tabs';
 
- const BookingUrl="http://localhost:8900/booking"
+ const BookingUrl="http://localhost:7600/bookings"
 
 class PlaceBooking extends Component{
   constructor(props){

@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import axios from 'axios';
 import BookingDisplay from './bookingDisplay';
 
-const url="http://localhost:8800/booking"
+const url="http://localhost:7600/bookings"
 
 class ViewBooking extends Component{
   constructor(){
